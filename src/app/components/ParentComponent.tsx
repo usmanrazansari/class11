@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { initialStudents } from '../components/state';
+import { initialStudents } from './state';
 import Child from './ChildComponent';
 
 export default function Parent() {
