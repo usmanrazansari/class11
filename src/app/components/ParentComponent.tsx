@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { initialStudents } from './state';
+import { initialStudents } from '../components/state';
 import Child from './ChildComponent';
 
 export default function Parent() {
-  const [students, setStudents] = useState(initialStudents);
+  const [students] = useState(initialStudents);
 
   return (
     <main className="min-h-screen bg-gray-100" style={styles.mainContainer}>
